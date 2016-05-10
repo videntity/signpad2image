@@ -43,7 +43,7 @@ Requires:
 * jsonsig - The JSON representing the signature.
 * output_image- The path to the default image. Default="signature.png", 
 * input_image-  The path to the input image. Default="blanksig.png",
-* pin_color - the ink's color. Default=(0,0,255).  This is blue.
+* pin_color - The ink's color. Default=(0,0,255).  This is blue.
 
 Returns:
 ~~~~~~~
@@ -80,7 +80,7 @@ or the force_no_sig_image is set to True, it will return the nosig_image.
 
 Example (In Django):
 ~~~~~~~~~~~~~~~~~~~~
-Thhis illustrates building the image and returning it as an HTTP response.  
+This illustrates building the image and returning it as an HTTP response.  
 This illustration is a django view. Note the vaiables NO_SIG_IMAGE and
 BLANK_SIG_IMAGE are being imported from the settings file.
 :: 
